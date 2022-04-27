@@ -200,6 +200,69 @@ header.header-scroll {
 }
 
 
+/* about */
+
+#about .about__header {
+    text-align: center;
+}
+
+#about a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    border-bottom: 2px solid #189A46;
+    transition: all 0.5s;
+}
+
+#about a:hover {
+    color: #189A46;
+}
+
+.about__icon i {
+    color: #189A46;
+    font-size: 30px;
+    margin: 0 0 24px 0;
+}
+
+.about__box h4 {
+    cursor: pointer;
+    font-weight: 800;
+    margin: 0 0 16px 0;
+}
+
+.about__box h4:hover {
+    color: #189A46;
+}
+
+.about__box p {
+    font-size: 19px;
+    color: #696969;
+    margin: 0 0 20px 0;
+}
+
+.about__content {
+    background-color: rgb(147 106 232 / 5%);
+    margin: 50px auto;
+}
+
+.about__box {
+    background-color: white;
+    border-radius: 16px;
+    padding: 30px;
+    margin: 20px 2px;
+}
+
+.about__box:hover {
+    background-color: rgba(146, 104, 232, 0.05);
+    transition: all 0.5s;
+}
+
+.about__content1 {
+    width: 90%;
+}
+
+
 /* -------------- */
 
 
@@ -266,6 +329,120 @@ header.header-scroll {
 }
 
 
+/* plan */
+
+#plan {
+    background-color: rgb(147 106 232 / 5%);
+}
+
+.plan__1,
+.plan__1active {
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#plan .container {
+    width: 75%;
+}
+
+.plan__text li {
+    list-style: none;
+}
+
+.plan__button .btn {
+    background-color: #189A46;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 10px;
+    padding: 12px 30px;
+    transition: all 0.5s;
+}
+
+.plan__1 {
+    height: 480px;
+    margin-top: 50px;
+}
+
+.plan__1active {
+    height: 550px;
+    padding: 0 0;
+    box-shadow: 0 19px 30px 0 rgba(0, 0, 0, 0.2);
+}
+
+.plan__1active .plan__top {
+    background-color: #189A46;
+    border-radius: 10px 10px 0 0;
+    color: white;
+}
+
+.plan__top h6 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.plan__top h4 {
+    color: #189A46;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.plan__top label {
+    font-size: 24px;
+    vertical-align: top;
+}
+
+.plan__top span {
+    color: #999;
+    font-size: 17px;
+    font-weight: normal;
+}
+
+.plan__1active .plan__top h4 {
+    color: white;
+}
+
+.plan__1active .plan__top span {
+    color: white;
+}
+
+.plan__1active .plan__top .btn {
+    color: #189A46;
+    font-size: 1rem;
+    border-radius: 10px;
+    font-weight: 600;
+    padding: 5px 16px;
+    margin-top: 40px;
+    background-color: white;
+    cursor: text;
+}
+
+.plan__text {
+    color: #696969;
+    margin-top: 30px;
+}
+
+.plan__button .btn:hover {
+    background-color: #116E32;
+    border-color: #116E32;
+}
+
+.plan__text p {
+    font-size: 18px;
+}
+
+.plan__header h1 {
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 600
+}
+
+
 /* -------------- */
 
 
@@ -320,6 +497,61 @@ header.header-scroll {
 
 .bebe {
     display: none;
+}
+
+
+/* feedback */
+
+#feedback {
+    background-color: rgb(147 106 232 / 5%);
+}
+
+#feedback .feedback__item {
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    max-width: 490px
+}
+
+.feedback__img {
+    display: flex;
+}
+
+.feedback__img img {
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+}
+
+.feedback__img p {
+    color: #999;
+}
+
+.feedback__content {
+    padding: 34px 20px;
+    margin: 10px 10px;
+}
+
+.feedback__bottom {
+    max-width: 1050px;
+    margin: auto;
+}
+
+.feedback__bottom1 {
+    padding: 40px 10px;
+    border: none;
+}
+
+.feedback__text p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.feedback__text i {
+    color: #189A46;
+    font-size: 20px;
+    position: relative;
+    bottom: 15px;
 }
 
 
