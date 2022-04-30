@@ -435,11 +435,11 @@ header.header-scroll {
 
 .plan__header h1 {
     text-align: center;
-    text-transform: capitalize;
+    text-transform: uppercase;
     margin-bottom: 10px;
-    font-size: 25px;
+    font-size: 1.2rem;
     line-height: 30px;
-    font-weight: 600
+    font-weight: 400;
 }
 
 
@@ -684,4 +684,217 @@ h4 {
 
 .footer__end span:hover {
     text-decoration: underline rgb(185, 23, 23);
+}
+
+
+/* RESPONSIVE */
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .navbar-nav .nav-item .nav-link {
+        font-size: 1rem;
+    }
+    .titanic {
+        width: 90%;
+    }
+    header {
+        padding: 0;
+    }
+    .carousel-caption h3 {
+        font-size: 3.5rem;
+    }
+    .choose__img img {
+        margin-left: 5%;
+    }
+    .choose__title {
+        margin-left: 5%;
+        margin-top: 40px;
+    }
+    #plan .plan__content {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .better__title {
+        padding: 0 50px 50px 50px;
+    }
+    .stay {
+        width: 80%;
+    }
+    .stay__box input {
+        margin-left: -40px;
+    }
+    .footer {
+        padding: 50px 0 30px 0;
+        font-size: 90%;
+    }
+    .footer .row h4 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .navbar-toggler {
+        background-color: #4caf50;
+        border: 1px solid #4caf50;
+    }
+    .carousel-caption h3 {
+        font-size: 3rem;
+    }
+    .choose__img img {
+        margin-left: 5%;
+    }
+    .choose__title {
+        margin-left: 5%;
+        margin-top: 40px;
+    }
+    #choose .titanic {
+        width: 90%;
+    }
+    /* .count__box span {
+        font-size: 1rem;
+    } */
+    .better__title {
+        padding: 0 10px 50px 10px;
+    }
+    #better .titanic {
+        width: 95%;
+    }
+    .better__video img {
+        width: 95%;
+    }
+    .better__video a {
+        transform: translate(-50%, -50%);
+    }
+    .stay {
+        width: 90%;
+    }
+    .stay__box input {
+        padding: 10px 100px 5px 10px;
+    }
+    .stay__box .btn-1 {
+        padding-bottom: 6px;
+        padding-top: 9px;
+        font-size: 1rem;
+    }
+    #footer .titanic {
+        width: 98%;
+    }
+    .footer {
+        padding: 50px 20px 30px 20px;
+        font-size: 80%;
+    }
+    .footer .row h4 {
+        font-size: 1.1rem;
+        margin-bottom: 20px;
+    }
+    .footer__1 {
+        width: 40%;
+    }
+    .footer__2 {
+        width: 20%;
+    }
+    .footer__3 {
+        width: 20%;
+    }
+    .footer__4 {
+        width: 20%;
+    }
+    .footer__end {
+        padding: 10px;
+        font-size: 90%;
+    }
+}
+
+@media (max-width: 576px) {
+    header {
+        padding: 0;
+    }
+    .navbar .navbar-brand {
+        font-size: 1.5rem;
+    }
+    .navbar-toggler {
+        background-color: #4caf50;
+        border: 1px solid #4caf50;
+    }
+    .carousel-caption h3 {
+        font-size: 2.5rem;
+    }
+    .btn-2 {
+        display: block;
+        width: 170.2px;
+        margin-top: 30px;
+    }
+    .choose__img img {
+        margin-left: 5%;
+    }
+    .choose__title {
+        margin-left: 5%;
+        margin-top: 40px;
+    }
+    #choose .titanic {
+        width: 90%;
+    }
+    .feedback__text p {
+        font-size: 1rem;
+    }
+    .feedback__img {
+        display: block;
+    }
+    .people {
+        font-size: 0.8rem;
+    }
+    .better__title {
+        padding: 0 10px 50px 10px;
+    }
+    #better .titanic {
+        width: 95%;
+    }
+    .better__video img {
+        width: 95%;
+    }
+    .better__video a {
+        transform: translate(-50%, -50%);
+    }
+    .stay {
+        width: 90%;
+    }
+    .stay__box input {
+        padding: 10px 100px 5px 10px;
+        width: 80vw;
+    }
+    .stay__box .btn-1 {
+        padding-bottom: 6px;
+        padding-top: 9px;
+        font-size: 1rem;
+        display: block;
+        width: 80vw;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    #footer .titanic {
+        width: 98%;
+    }
+    .footer {
+        padding: 50px 20px 30px 20px;
+        font-size: 80%;
+    }
+    .footer .row h4 {
+        font-size: 1.1rem;
+        margin-bottom: 20px;
+    }
+    .footer__1 {
+        width: 100%;
+    }
+    .footer__2 {
+        width: 33%;
+    }
+    .footer__3 {
+        width: 33%;
+    }
+    .footer__4 {
+        width: 33%;
+    }
+    .footer__end {
+        padding: 10px;
+        font-size: 70%;
+    }
 }
