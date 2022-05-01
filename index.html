@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="./js/slick/slick.css" />
     <link rel="stylesheet" href="./js/slick/slick-theme.css" />
 
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="./libs/Magnific_Popup/dist/magnific-popup.css">
 
 
     <link rel="stylesheet" href="./css/style.css">
@@ -383,13 +385,14 @@
             </div>
             <div class="better__video">
                 <img src="./images/banner2.jpg" alt="">
-                <a href="#better__dog">
+                <a href="#small-dialog1" class="play-icon popup-with-zoom-anim">
                     <i class="fas fa-play"></i>
                 </a>
             </div>
-            <div id="better__dog" class="bebe">
-                <iframe src="https://player.vimeo.com/video/101587706?h=187bfc0989" width="640" height="298" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-                <p><a href="https://vimeo.com/101587706">Special Dogs, Special Needs</a> from <a href="https://vimeo.com/user30435983">The Puryears</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+            <div id="small-dialog1" class="w3ls_small_dialog wthree_pop mfp-hide">
+                <div class="agileits_modal_body">
+                    <iframe title="vimeo-player" src="https://player.vimeo.com/video/101587706?h=187bfc0989" width="640" height="298" frameborder="0" allowfullscreen></iframe>
+                </div>
             </div>
         </div>
     </section>
@@ -621,6 +624,25 @@
             dots: true,
         });
     </script>
+
+    <script src="./libs/Magnific_Popup/dist/jquery.magnific-popup.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".popup-with-zoom-anim").magnificPopup({
+                type: "inline",
+                fixedContentPos: false,
+                fixedBgPos: true,
+                overflowY: "auto",
+                closeBtnInside: true,
+                preloader: false,
+                midClick: true,
+                removalDelay: 300,
+                mainClass: "my-mfp-zoom-in"
+            });
+        });
+    </script>
+
+
 
     <script src="./main.js"></script>
 
