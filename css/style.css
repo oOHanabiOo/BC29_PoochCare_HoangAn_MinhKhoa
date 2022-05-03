@@ -781,6 +781,9 @@ h4 {
     bottom: 20px;
     right: 20px;
     font-size: 20px;
+}
+
+
 /* RESPONSIVE */
 
 @media (min-width: 769px) and (max-width: 992px) {
@@ -843,9 +846,6 @@ h4 {
     #choose .titanic {
         width: 90%;
     }
-    /* .count__box span {
-        font-size: 1rem;
-    } */
     .better__title {
         padding: 0 10px 50px 10px;
     }
